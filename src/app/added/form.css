@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.form{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 1cm;
+    background-color: transparent;
+}
+.formdata{
+    display: flex;
+    flex-direction: column;
+    padding: 0cm 0.5cm 0.5cm;
+    height: max-content;
+    width: max-content;
+    border: 2px solid #ddd;
+    background-color: #ddd;
+    margin-top: 0.5cm;
+    border-radius: 20px;
+}
+.query{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.field{
+    width: 60vh;
+    height: 1cm;
+    margin-bottom: 10px;
+}
+.sub{
+    height: 1cm;
+    width: 4cm;
+    font-size: 0.4cm;
+    margin-top: 0.5cm;
+    background-color: yellowgreen;
+    border-radius: 10px;
+}

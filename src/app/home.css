@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+.hometext{
+    text-align: start;
+    margin-top: 1.5cm;
+    align-items: start;
+    margin-left: 1.5cm;
+}
+.wel{
+    color: orangered;
+    margin-bottom: 0.8cm;
+}
+.heading{
+    font-size: 1.5cm;
+}
+.para{
+    margin-top: 0.7cm;
+    font-size: 15px;
+}
+.buy{
+    height: 1cm;
+    width: 6cm;
+    font-size: 0.5cm;
+    padding: 6px 30px;
+    border-radius: 20px;
+    background-color: #03aae1;
+    margin-top: 0.8cm;
+}
+.homeimg{
+    justify-self: end;
+}
+.background{
+    display: flex;
+    background-color: #55c2e6;
+    height: 17cm;
+    width: 25cm;
+    border-radius: 80% 0% 40% 30%;
+    border: 2px solid #05bdfb;
+    align-items: center;
+}
+.car{
+    height: auto;
+    width: 20cm;
+}
+.list{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 1cm;
+}
+.box{
+    padding: 3px;
+    margin: 15px;
+    background-color: #ddd;
+    height: max-content;
+    width: max-content;
+    border-radius: 20px;
+}
+.carlist{
+    height: 6cm;
+    width: 6cm;
+    border-radius: 20px;
+}
+.company{
+    font-weight: 600;
+}
+.price{
+    margin-left: 25px;
+}
+.type{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.model{
+    padding-bottom: 5px;
+}
